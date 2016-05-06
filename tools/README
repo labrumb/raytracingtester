@@ -1,0 +1,13 @@
+pixelChecker.java compiles using the javac tool. When called it requires a directory loaction the x and y coords of the test pixel and the size of a square image in x direction
+
+raytester.cpp will generate test cases for raytracers 
+outputs to commandline and can be piped into a file or program
+out put is formated as
+
+x,y of text pixel with top left of image as 0,0
+width of square image
+followed by each test which is formated as 
+test name and paramitors
+one or more spheres
+end
+
